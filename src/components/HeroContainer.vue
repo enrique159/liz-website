@@ -34,7 +34,7 @@ import { MapPin } from '@iconoir/vue';
 .profile-image {
   width: 100%;
   max-width: 420px;
-  background-image: url('static/profile_image.jpg');
+  background-image: url('/static/profile_image.jpg');
   background-size: cover;
   background-position: center;
   aspect-ratio: 1;

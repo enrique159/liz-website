@@ -1,4 +1,10 @@
 {
   "Home": "Home",
-  "About": "About"
+  "About": "About",
+  "heroContainer": {
+    "hello": "Hello!",
+    "iAm": "I'm Lizbeth",
+    "description": "I'm a User Experience Designer in the San Francisco Bay Area. I'm a passionate problem solver who enjoys creating delightful digital experiences.",
+    "location": "La Paz, Baja California Sur, México"
+  }
 }

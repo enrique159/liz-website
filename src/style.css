@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@import './assets/fonts.css';
+@import './styles/fonts.css';
 
 @plugin "daisyui/theme" {
   name: "light";
@@ -22,12 +22,14 @@
   --color-danger: #ef4444;
   --color-info: #646cff;
   --color-background: #f1eae5;
+  --color-text: #393f42;
 }
 
 :root {
   --color-background: #f1eae5;
+  --color-text: #393f42;
 }
 
 body {
-  @apply bg-background;
+  @apply bg-background text-text;
 }

@@ -1,4 +1,10 @@
 {
   "Home": "Inicio",
-  "About": "Sobre mí"
+  "About": "Sobre mí",
+  "heroContainer": {
+    "hello": "Hola!",
+    "iAm": "Soy Lizbeth",
+    "description": "Soy una Diseñadora de Experiencias de Usuario en el Valle de San Francisco. Soy una apasionada resolutora de problemas que disfruta creando experiencias digitales deliciosas.",
+    "location": "La Paz, Baja California Sur, México"
+  }
 }

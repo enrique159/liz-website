@@ -1,26 +1,63 @@
 <template>
-  <header class="container mx-auto py-6 px-4 flex justify-between items-center">
-    <router-link to="/">
-      <img src="@/assets/logo.png" alt="Liz" class="w-10">
-    </router-link>
-    <nav>
-      <ul class="flex gap-4">
-        <li class="nav-item">
-          <router-link to="/" class="nav-link">
-            {{ $t('Home') }}
-          </router-link>
-        </li>
-        <li class="nav-item">
-          <router-link to="/about" class="nav-link">
-            {{ $t('About') }}
-          </router-link>
-        </li>
-      </ul>
-    </nav>
+  <header
+    class="fixed z-50 backdrop-blur-md border border-background bg-background/50 transition-all duration-300"
+    :class="[
+      isTop
+        ? 'top-0 w-full left-0 px-16'
+        : 'top-8 w-[360px] mx-auto left-1/2 -translate-x-1/2 border border-gray-600/20 px-6 rounded-full',
+    ]"
+  >
+    <div class="flex justify-between items-center py-6">
+      <router-link to="/">
+        <img src="@/assets/logo.png" alt="Liz" class="hover:scale-95 transition-all duration-300" :class="isTop ? 'w-10' : 'w-8'" />
+      </router-link>
+      <nav>
+        <ul class="flex gap-4 text-sm">
+          <li class="nav-item">
+            <router-link to="#about" class="nav-link">
+              {{ $t('About') }}
+            </router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="#experience" class="nav-link">
+              {{ $t('Experience') }}
+            </router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="#contact" class="nav-link">
+              {{ $t('Contact') }}
+            </router-link>
+          </li>
+          <li class="nav-item">
+            <LocaleSwitcher class="nav-link" />
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
 </template>
 
 <script setup lang="ts">
+import LocaleSwitcher from './LocaleSwitcher.vue'
+import { computed, onMounted, onUnmounted, ref } from 'vue'
+
+const scrollY = ref(0)
+
+const isTop = computed(() => {
+  return scrollY.value < 80
+})
+
+onMounted(() => {
+  document.addEventListener('scroll', () => {
+    scrollY.value = window.scrollY
+  })
+})
+
+onUnmounted(() => {
+  document.removeEventListener('scroll', () => {
+    scrollY.value = window.scrollY
+  })
+})
 </script>
 
 <style scoped>

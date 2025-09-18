@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@import './assets/fonts.css';
+
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  --font-primary: 'Nexa', system-ui, Helvetica, Arial, sans-serif;
+  --color-primary: #646cff;
+  --color-secondary: #F02367;
+  --color-success: #22c55d;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+  --color-info: #646cff;
+}
+
+@theme {
+  --default-font-family: 'Nexa', system-ui, Helvetica, Arial, sans-serif;
+  --color-primary: #646cff;
+  --color-secondary: #F02367;
+  --color-success: #22c55d;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+  --color-info: #646cff;
+  --color-background: #f1eae5;
+}
+
+:root {
+  --color-background: #f1eae5;
+}
+
+body {
+  @apply bg-background;
+}

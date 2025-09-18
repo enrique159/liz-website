@@ -1,0 +1,90 @@
+/* ============== Nexa ============== */
+@font-face {
+  font-family: 'Nexa';
+  font-weight: 900;
+  font-style: normal;
+  font-display: auto;
+  src:
+    local('Nexa Black'),
+    url('fonts/Nexa-Black.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Nexa';
+  font-weight: 800;
+  font-style: normal;
+  font-display: auto;
+  src:
+    local('Nexa Heavy'),
+    url('fonts/Nexa-Heavy.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Nexa';
+  font-weight: 700;
+  font-style: normal;
+  font-display: auto;
+  src:
+    local('Nexa ExtraBold'),
+    url('fonts/Nexa-ExtraBold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Nexa';
+  font-weight: 600;
+  font-style: normal;
+  font-display: auto;
+  src:
+    local('Nexa Bold'),
+    url('fonts/Nexa-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Nexa';
+  font-weight: 500;
+  font-style: normal;
+  font-display: auto;
+  src:
+    local('Nexa Book'),
+    url('fonts/Nexa-Book.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Nexa';
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+  src:
+    local('Nexa Regular'),
+    url('fonts/Nexa-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Nexa';
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
+  src:
+    local('Nexa Light'),
+    url('fonts/Nexa-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Nexa';
+  font-weight: 200;
+  font-style: normal;
+  font-display: auto;
+  src:
+    local('Nexa ExtraLight'),
+    url('fonts/Nexa-ExtraLight.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Nexa';
+  font-weight: 100;
+  font-style: normal;
+  font-display: auto;
+  src:
+    local('Nexa Thin'),
+    url('fonts/Nexa-Thin.otf') format('opentype');
+}

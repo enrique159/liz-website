@@ -1,10 +1,13 @@
 {
-  "Home": "Home",
-  "About": "About",
+  "header": {
+    "about": "About",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
   "heroContainer": {
     "hello": "Hello!",
     "iAm": "I'm Lizbeth",
-    "description": "I'm a User Experience Designer in the San Francisco Bay Area. I'm a passionate problem solver who enjoys creating delightful digital experiences.",
+    "description": "I'm a Digital Marketing Manager based in Baja California Sur, Mexico. I'm passionate about growing businesses with effective digital strategies.",
     "location": "La Paz, Baja California Sur, México"
   }
 }

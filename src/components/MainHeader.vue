@@ -1,6 +1,6 @@
 <template>
   <header
-    class="fixed z-50 backdrop-blur-md border border-background bg-background/50 transition-all duration-300"
+    class="fixed z-50 backdrop-blur-[4px] border border-background bg-background/50 transition-all duration-300"
     :class="[
       isTop
         ? 'top-0 w-full left-0 px-16'
@@ -12,20 +12,20 @@
         <img src="@/assets/logo.png" alt="Liz" class="hover:scale-95 transition-all duration-300" :class="isTop ? 'w-10' : 'w-8'" />
       </router-link>
       <nav>
-        <ul class="flex gap-4 text-sm">
+        <ul class="flex gap-3 text-sm">
           <li class="nav-item">
             <router-link to="#about" class="nav-link">
-              {{ $t('About') }}
+              {{ $t('header.about') }}
             </router-link>
           </li>
           <li class="nav-item">
             <router-link to="#experience" class="nav-link">
-              {{ $t('Experience') }}
+              {{ $t('header.experience') }}
             </router-link>
           </li>
           <li class="nav-item">
             <router-link to="#contact" class="nav-link">
-              {{ $t('Contact') }}
+              {{ $t('header.contact') }}
             </router-link>
           </li>
           <li class="nav-item">

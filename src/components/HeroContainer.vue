@@ -17,6 +17,15 @@
         <map-pin :stroke-width="2" />
         <p>{{ $t('heroContainer.location') }}</p>
       </div>
+
+      <div class="flex gap-2 items-center" data-aos="fade-up" data-aos-delay="300">
+        <a href="https://www.linkedin.com/in/lizbeth/" target="_blank">
+          LinkedIn
+        </a>
+        <a href="https://github.com/lizbethortiz" target="_blank">
+          Curriculum
+        </a>
+      </div>
     </div>
 
     <!-- RIGHT SIDE  -->

@@ -1,10 +1,13 @@
 {
-  "Home": "Inicio",
-  "About": "Sobre mí",
+  "header": {
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "contact": "Contacto"
+  },
   "heroContainer": {
     "hello": "Hola!",
     "iAm": "Soy Lizbeth",
-    "description": "Soy una Diseñadora de Experiencias de Usuario en el Valle de San Francisco. Soy una apasionada resolutora de problemas que disfruta creando experiencias digitales deliciosas.",
+    "description": "Soy una Digital Marketing Manager residente en la Baja California Sur, México. Soy una apasionada de hacer crecer empresas con estrategias digitales efectivas.",
     "location": "La Paz, Baja California Sur, México"
   }
 }

@@ -9,4 +9,7 @@
 
 <script setup lang="ts">
 import HeroContainer from '@/components/HeroContainer.vue';
+import { useTitle } from '@vueuse/core';
+
+useTitle('Lizbeth | Digital Marketing Manager');
 </script>
